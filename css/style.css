@@ -1,0 +1,56 @@
+header{
+    color:red;
+}
+h1{
+    color:chartreuse;
+}
+.text{
+    color:darkgreen;
+}
+#paragraph{
+    color:aqua;
+}
+.first-paragraph h2{
+    color:blueviolet;
+}
+.one, 
+.two{
+    color:crimson;
+}
+/* .two{
+    color: pink;
+} */
+.second-paragraph h2,
+.second-paragraph p{
+    color:coral;
+}
+.third-paragraph h2{
+    color: darkcyan;
+}
+[title="name-one"]{
+    color:aquamarine;
+}
+[title="name-two"]{
+    color: blue;
+}
+.forth-paragraph h2{
+    color:brown;
+}
+[class*="-text"]{
+    color:red;
+}
+.fifth-paragraph h2{
+    color: darkorange;
+}
+.fifth-paragraph>p{
+    color:yellow;
+}
+.sixth-paragraph h2{
+    color:green;
+}
+.sixth-paragraph p{
+    color:greenyellow;
+}
+[class*="-paragraph"]{
+    color: darkmagenta;
+}
